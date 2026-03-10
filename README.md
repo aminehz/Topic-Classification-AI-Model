@@ -30,7 +30,7 @@ The BERT model outperformed Logistic Regression across all metrics:
 | Metric | Logistic Regression | BERT-base |
 | :--- | :--- | :--- |
 | Macro F1 | 0.80 | 0.91 |
-| Science Precision | 0.36 | 0.75 |
+| Science Precision | 0.36 | 0.79 |
 | Sport F1 | 0.79 | 0.93 |
 
 ### **Confusion Matrix**

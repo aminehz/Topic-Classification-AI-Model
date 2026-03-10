@@ -464,20 +464,20 @@ with open('requirements.txt', 'w') as f:
 
 print("requirements.txt")
 
-"""# **Comparative Error Analysis: Linear Regression vs. BERT**
+"""# **Comparative Error Analysis: logistic regression vs. BERT**
 
-By comparing Logistic Regression (LR) and BERT , we see a major improvement when moving from Linear Regression model to deep contextual understanding.
+By comparing Logistic Regression (LR) and BERT , we see a major improvement when moving from logistic regression model to deep contextual understanding.
 
 1. **Precision Revolution - Catogory: Science:**
 
-*  **Linear Regression:** Precision = 0.36. The model often misclassified technical terms , producing many false positives from Health and Emotion.
+*  **logistic regression:** Precision = 0.36. The model often misclassified technical terms , producing many false positives from Health and Emotion.
 * **BERT:** Precision = 0.80. By understanding the context, BERT can make a difference between a medical study (Health) and Science.
 
 2. **Solving Confusion between Health and Science categories:**
 
 *  **LR confusion:** 257 Health topics misclassified as Science.
 *  **BERT Confusion:** Only 38 Health topics are misclassified as Science.
-Because the Linear Regression relied on shared vocabulary while BERT captures sentence context as bidirectionnal model.
+Because the logistic regression relied on shared vocabulary while BERT captures sentence context as bidirectionnal model.
 
 3. **Performance on Minority Classes:**
 

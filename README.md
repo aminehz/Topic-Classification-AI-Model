@@ -35,7 +35,8 @@ The BERT model outperformed Logistic Regression across all metrics:
 
 ### **Confusion Matrix**
 The BERT confusion matrix shows significant reductions in misclassifications, especially for minority classes like Science and Sport.
-<div style="display: flex; gap: 20px;"> <img src="images/logistic_regression_cm.png" alt="Logistic Regression Confusion Matrix" width="45%"/> <img src="images/bert_cm.png" alt="BERT Confusion Matrix" width="45%"/> </div>
+<div style="display: flex; gap: 20px;"> <img src="images/logistic_regression_cm.png" alt="Logistic Regression Confusion Matrix" width="45%"/> <img src="images/bert_cm.png" alt="BERT Confusion Matrix" width="45%"/></div>
+
 ### **Error Analysis**
 BERT successfully resolved **semantic overlaps** between Health vs Science and Politics vs Science by capturing the contextual meaning of words, a limitation of the baseline model.
 

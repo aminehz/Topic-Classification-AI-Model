@@ -2,6 +2,8 @@
 
 This repository contains an NLP project that classifies news articles into six distinct categories. The project demonstrates the evolution from a **baseline TF-IDF + Logistic Regression model** to a **state-of-the-art BERT model** capable of understanding context and handling class imbalance effectively.
 
+I developed a mini-project NLP pipeline to classify unstructured text into six domains. My role included handling class imbalance, data cleaning, and establishing a word-frequency baseline. I then leveraged the Hugging Face Transformers library to implement a BERT-base model, which significantly improved classification accuracy. The project was developed as part of my coursework, using concepts learned in class and supported by official documentation.
+
 ## 📂 Dataset
 The dataset used in this project was sourced from **Kaggle**.  
 - **Source:** [Topic Classification Dataset](https://www.kaggle.com/datasets/baraamelhem/topic-classification-dataset/data?select=topic_classification_data.csv)  
